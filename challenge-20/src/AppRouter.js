@@ -1,31 +1,31 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import React from "react";
+// import ReactDOM from "react-dom/client";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import AboutMe from "./components/aboutMe";
-// import Navbar from "./components/Navbar";
-import Resume from "./pages/Resume";
+// import AboutMe from "./components/aboutMe";
+// // import Navbar from "./components/Navbar";
+// import Resume from "./pages/Resume";
 
-function AppRouter() {
-    return (
+// function AppRouter() {
+//     return (
 
-        <BrowserRouter>
+//         <BrowserRouter>
 
-            <Routes>
+//             <Routes>
 
-                <Route path="/AboutMe" element={
-                    <AboutMe />
-                } />
+//                 <Route path="/AboutMe" element={
+//                     <AboutMe />
+//                 } />
 
-                <Route path="/Resume" element={
-                    <Resume />
-                } />
+//                 <Route path="/Resume" element={
+//                     <Resume />
+//                 } />
 
-            </Routes>
+//             </Routes>
 
-        </BrowserRouter>
+//         </BrowserRouter>
 
-    )
-}
+//     )
+// }
 
-export default AppRouter
+// export default AppRouter

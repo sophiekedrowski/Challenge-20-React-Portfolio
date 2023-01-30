@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function AboutMe() {
     return (
-        <div>
+        <div className="container">
             <h1>About Me</h1>
             <p> Hello! My name is Sophie Kedrowski. I'm from Minneapolis, MN. I'm currently working as registered nurse in an observation unit.
               I decided to try out full stack development in order to make a career change. When i'm not studying coding or working, I am an avid rock climber

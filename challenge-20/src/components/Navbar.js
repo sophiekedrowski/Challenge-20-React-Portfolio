@@ -4,7 +4,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="container navbar navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand" href="#">
         Welcome to my portfolio!
       </a>

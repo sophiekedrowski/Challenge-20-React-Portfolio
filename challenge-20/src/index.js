@@ -1,15 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import App from './App'
 import './index.css'
-
-class App extends React.Component {
-  render() {
-    return (
-      <div className="App">
-        <h1>Hello, React!</h1>
-      </div>
-    )
-  }
-}
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(<App />, document.getElementById('root'))

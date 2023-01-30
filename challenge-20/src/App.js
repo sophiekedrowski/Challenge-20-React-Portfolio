@@ -16,8 +16,8 @@ export default function App() {
     <div className="container">
 <Navbar />
 <AboutMe />
-<Resume />
-<Contact />
+{/* <Resume />
+<Contact /> */}
     </div>
 
   );

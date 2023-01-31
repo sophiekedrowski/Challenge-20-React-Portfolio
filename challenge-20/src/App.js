@@ -2,14 +2,19 @@ import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 // import Home from './pages';
 import AboutMe from './pages/aboutMe';
-// import Resume from './pages/Resume'
-// import Portfolio from './pages/Portfolio'
+import Resume from './pages/Resume'
+import Portfolio from './pages/Portfolio'
 import Contact from './pages/Contact'
 import "bootstrap/dist/css/bootstrap.min.css";
+import Toggle from './components/Toggle';
+import Footer from './pages/Footer';
 
 
 export default function App() {
-  const [categories] = useState()
+  const [categories, setCategories] = useState([
+    { name: 'Resume' },
+    { name: 'Portfolio' },
+  ])
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
@@ -27,12 +32,14 @@ export default function App() {
       <main>
         {!contactSelected ? (
           <>
-            <AboutMe></AboutMe>
+            <AboutMe/>
+            <Toggle currentCategory={currentCategory}></Toggle>
           </>
         ) : (
           <Contact></Contact>
         )}
       </main>
+      <Footer/>
     </div>
 
   );

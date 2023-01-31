@@ -43,6 +43,11 @@ const Navbar = (props) => {
             </a>
           </li>
 
+
+          <li className={`nav-link active ${contactSelected && 'navActive'}`}>
+            <span onClick={() => setContactSelected(true)}>Contact</span>
+          </li>
+
           {categories.map((category) => (
             <li
               className={`nav-link ${

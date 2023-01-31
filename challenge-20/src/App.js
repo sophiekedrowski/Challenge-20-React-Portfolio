@@ -39,7 +39,7 @@ export default function App() {
           <Contact></Contact>
         )}
       </main>
-      <Portfolio/>
+      {/* <Portfolio/> */}
       <Footer/>
     </div>
 

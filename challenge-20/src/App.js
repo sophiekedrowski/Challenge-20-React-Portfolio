@@ -39,6 +39,7 @@ export default function App() {
           <Contact></Contact>
         )}
       </main>
+      <Portfolio/>
       <Footer/>
     </div>
 

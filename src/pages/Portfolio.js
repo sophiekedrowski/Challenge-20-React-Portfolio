@@ -12,14 +12,14 @@ export default function Portfolio() {
             <div className="flex-row">
                 <a href="https://github.com/sophiekedrowski/Challenge-18-NoSQL-Network-API" target="_blank" rel="noreferrer">
                 NoSQL Network API <br></br>
-                <img className="flex-row" src={NetworkAPI} alt="Network API logo"
+                <img className="row justify-content-start" src={NetworkAPI} alt="Network API logo"
                     style={{ height: "200px", width: "400px", paddingRight: "10px" }} />
                 </a>
             </div>
             <div className="flex-row">
                 <a href="https://github.com/sophiekedrowski/Challenge-19-PWA-Text-editor" target="_blank" rel="noreferrer">
                 PWA Text Editor <br></br>
-                <img className="flex-row" src={PWA} alt="PWA logo"
+                <img className="row justify-content-end" src={PWA} alt="PWA logo"
                     style={{ height: "200px", width: "400px",paddingRight: "10px" }} />
                 </a>
             </div>

@@ -6,7 +6,8 @@ export default function Resume() {
         <div className="container">
             <h1>Resume</h1>
             <div>
-                <a href='{myResume}' download="myResume.pdf">
+                <a href={myResume} target="_blank"
+                    rel="noreferrer">
                     <h2>
                         Download my resume here!
                     </h2>

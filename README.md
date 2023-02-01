@@ -15,7 +15,7 @@
 This is my professional portfolio that is hosted through github pages and uses React as the javascript library. This project entails multiple sections including: Portfolio, Resume, Contact form and about me sections. 
 
 Below is a screenshot of how the portfolio appears
-![Portfolio](./challenge-20/src/Images/Screenshot%202023-01-30%20at%203.51.17%20PM.png)
+![Portfolio](./src/Images/Screenshot%202023-01-30%20at%203.51.17%20PM.png)
 
 
   ## Installation 

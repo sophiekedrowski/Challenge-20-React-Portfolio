@@ -37,18 +37,18 @@ function Contact() {
   };
 
   return (
-    <section className='flex-column'>
-      <h1 data-testid="h1tag">Contact me</h1>
+    <section className='flex justify-content-center'>
+      <h1 className='padding 10px' data-testid="h1tag">Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
-        <div className='flex-row'>
+        <div className='flex-row justify-content-center, padding 10px'>
           <label htmlFor="name">Name:</label>
           <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
         </div>
-        <div>
+        <div className='flex-row justify-content-center, padding 10px'>
           <label htmlFor="email">Email address:</label>
           <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
         </div>
-        <div>
+        <div className='flex-row justify-content-center, padding 10px' >
           <label htmlFor="message">Message:</label>
           <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
         </div>

@@ -45,8 +45,8 @@ export default function Portfolio() {
                 </a>
             </div>
             <div className="flex-row">
-                <a href="https://github.com/sophiekedrowski/Challenge-5" target="_blank" rel="noreferrer">
-                Javascript scheduler <br></br>
+                <a href="https://github.com/mjkonkel/helping-hands" target="_blank" rel="noreferrer">
+                Project 3 - Helping hands <br></br>
                 <img className="flex-row" src={Scheduler} alt="Schedule cartoon"
                     style={{ height: "200px",width: "400px", paddingRight: "10px" }} />
                 </a>

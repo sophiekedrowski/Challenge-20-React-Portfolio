@@ -1,7 +1,12 @@
 
 import { Outlet, Link } from 'react-router-dom';
+// import { Navbar, Nav } from 'react-bootstrap';
 import React from 'react'
 import Footer from '../pages/Footer';
+import { LinkContainer } from 'react-router-bootstrap';
+import Container from 'react-bootstrap/Container';
+import Button from 'react-bootstrap/Button';
+import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 // import "../../index.css"
 
 function Navbar() {
@@ -9,24 +14,26 @@ function Navbar() {
     <React.Fragment>
 
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        {/* <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button> */}
-        <ul>
-          <li>
-            <Link to="/aboutme">About Me</Link>
-
-            <Link to="/portfolio">Portfolio</Link>
-
-            <Link to="/contact">Contact Me</Link>
-
-            <Link to="/resume">Resume</Link>
-
-
-
-          </li>
-        </ul>
+        <a class="navbar-brand" href="#">Sophie's Portfolio</a>
+        <div>
+          <ul>
+          Navigate to{' '}
+          <ButtonToolbar className="custom-btn-toolbar">
+            <LinkContainer to="/">
+              <Button className='buttons'>Home</Button>
+            </LinkContainer>
+            <LinkContainer to="/Portfolio">
+              <Button className='buttons'>Portfolio</Button>
+            </LinkContainer>
+            <LinkContainer to="/contact">
+              <Button className='buttons'>Contact</Button>
+            </LinkContainer>
+            <LinkContainer to="/Resume">
+              <Button className='buttons'>Resume</Button>
+            </LinkContainer>
+          </ButtonToolbar>
+          </ul>
+        </div>
       </nav>
       <Outlet />
 

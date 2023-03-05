@@ -5,6 +5,7 @@ import Resume from './pages/Resume'
 import Portfolio from './pages/Portfolio'
 import Contact from './pages/Contact'
 import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/js/bootstrap.min.js";
 // import Toggle from './components/Toggle';
 import Footer from './pages/Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';

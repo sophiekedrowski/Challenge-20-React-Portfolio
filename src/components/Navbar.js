@@ -1,76 +1,42 @@
-import React, { useEffect } from 'react';
-import { capitalizeFirstLetter } from '../utils/helpers';
-// import { NavLink } from 'reactstrap';
 
+import { Outlet, Link } from 'react-router-dom';
+import React from 'react'
+import Footer from '../pages/Footer';
+// import "../../index.css"
 
-
-const Navbar = (props) => {
-  const {
-    categories = [],
-    setCurrentCategory,
-    contactSelected,
-    currentCategory,
-    setContactSelected,
-  } = props;
-
-
-  useEffect(() => {
-    document.title = capitalizeFirstLetter(currentCategory.name);
-  }, [currentCategory]);
-
-
+function Navbar() {
   return (
-    <nav className="container navbar navbar-expand-lg navbar-light bg-light">
-      <a className="navbar-brand" data-testid="link" href="/">
-        Welcome to my portfolio!
-      </a>
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button>
+    <React.Fragment>
 
-      <div className="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul className="navbar-nav">
-          <li className="nav-item active">
-            <a className="nav-link" data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
-              About me! <span className="sr-only"></span>
-            </a>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        {/* <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> */}
+        <ul>
+          <li>
+            <Link to="/aboutme">About Me</Link>
+
+            <Link to="/portfolio">Portfolio</Link>
+
+            <Link to="/contact">Contact Me</Link>
+
+            <Link to="/resume">Resume</Link>
+
+
+
           </li>
-
-
-          <li className={`nav-link active ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>Contact</span>
-          </li>
-
-          {categories.map((category) => (
-            <li
-              className={`nav-link ${
-                currentCategory.name === category.name && !contactSelected && 'navActive'
-                }`}
-              key={category.name}
-            >
-              <span
-                onClick={() => {
-                  setCurrentCategory(category);
-                  setContactSelected(false);
-                }}
-              >
-                {capitalizeFirstLetter(category.name)}
-              </span>
-            </li>
-          ))}
-
         </ul>
-      </div>
-    </nav>
+      </nav>
+      <Outlet />
+
+      <Footer></Footer>
+
+    </React.Fragment>
+
+
   );
-};
+}
+
 
 export default Navbar;

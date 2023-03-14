@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Sophie-Kedrowski-React-Portfolio/static/css/main.f70188b8.css",
-    "main.js": "/Sophie-Kedrowski-React-Portfolio/static/js/main.58b2d809.js",
-    "static/media/NetworkAPI.png": "/Sophie-Kedrowski-React-Portfolio/static/media/NetworkAPI.4fe953c324f6b20bc4ee.png",
-    "static/media/Ecommerce.png": "/Sophie-Kedrowski-React-Portfolio/static/media/Ecommerce.233b4f5ee5b53bd36e37.png",
-    "static/media/Scheduler.png": "/Sophie-Kedrowski-React-Portfolio/static/media/Scheduler.dac24b1d7f4999cfbd7c.png",
-    "static/media/CMS.png": "/Sophie-Kedrowski-React-Portfolio/static/media/CMS.74be889c89de27c4b5f2.png",
-    "static/media/MySQL.png": "/Sophie-Kedrowski-React-Portfolio/static/media/MySQL.b6ddac17a72fd5c15cf7.png",
-    "static/media/Portrait.jpeg": "/Sophie-Kedrowski-React-Portfolio/static/media/Portrait.4e5d5566dd2e80d8e709.jpeg",
-    "static/media/PWA.png": "/Sophie-Kedrowski-React-Portfolio/static/media/PWA.5e665ec5f6072830aab7.png",
-    "static/media/myResume.pdf": "/Sophie-Kedrowski-React-Portfolio/static/media/myResume.043b1a27c54ae383a011.pdf",
-    "static/media/miniinsta.png": "/Sophie-Kedrowski-React-Portfolio/static/media/miniinsta.9495340120912e22ddcc.png",
-    "static/media/githubLogo.png": "/Sophie-Kedrowski-React-Portfolio/static/media/githubLogo.ccc01745dcfa240d0888.png",
-    "index.html": "/Sophie-Kedrowski-React-Portfolio/index.html",
-    "main.f70188b8.css.map": "/Sophie-Kedrowski-React-Portfolio/static/css/main.f70188b8.css.map",
-    "main.58b2d809.js.map": "/Sophie-Kedrowski-React-Portfolio/static/js/main.58b2d809.js.map"
+    "main.css": "/static/css/main.f70188b8.css",
+    "main.js": "/static/js/main.d9f58f4e.js",
+    "static/media/NetworkAPI.png": "/static/media/NetworkAPI.4fe953c324f6b20bc4ee.png",
+    "static/media/Ecommerce.png": "/static/media/Ecommerce.233b4f5ee5b53bd36e37.png",
+    "static/media/Scheduler.png": "/static/media/Scheduler.dac24b1d7f4999cfbd7c.png",
+    "static/media/CMS.png": "/static/media/CMS.74be889c89de27c4b5f2.png",
+    "static/media/MySQL.png": "/static/media/MySQL.b6ddac17a72fd5c15cf7.png",
+    "static/media/Portrait.jpeg": "/static/media/Portrait.4e5d5566dd2e80d8e709.jpeg",
+    "static/media/PWA.png": "/static/media/PWA.5e665ec5f6072830aab7.png",
+    "static/media/myResume.pdf": "/static/media/myResume.043b1a27c54ae383a011.pdf",
+    "static/media/miniinsta.png": "/static/media/miniinsta.9495340120912e22ddcc.png",
+    "static/media/githubLogo.png": "/static/media/githubLogo.ccc01745dcfa240d0888.png",
+    "index.html": "/index.html",
+    "main.f70188b8.css.map": "/static/css/main.f70188b8.css.map",
+    "main.d9f58f4e.js.map": "/static/js/main.d9f58f4e.js.map"
   },
   "entrypoints": [
     "static/css/main.f70188b8.css",
-    "static/js/main.58b2d809.js"
+    "static/js/main.d9f58f4e.js"
   ]
 }

@@ -22,13 +22,13 @@ function Navbar() {
             <LinkContainer to="/">
               <Button className='buttons'>Home</Button>
             </LinkContainer>
-            <LinkContainer to="/Portfolio">
+            <LinkContainer to="/portfolio">
               <Button className='buttons'>Portfolio</Button>
             </LinkContainer>
             <LinkContainer to="/contact">
               <Button className='buttons'>Contact</Button>
             </LinkContainer>
-            <LinkContainer to="/Resume">
+            <LinkContainer to="/resume">
               <Button className='buttons'>Resume</Button>
             </LinkContainer>
           </ButtonToolbar>

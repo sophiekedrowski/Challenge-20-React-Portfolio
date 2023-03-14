@@ -8,39 +8,36 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import "bootstrap/dist/js/bootstrap.min.js";
 // import Toggle from './components/Toggle';
 import Footer from './pages/Footer';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 
-export default function App() {
-
+export default function App(props) {
+  
   return (
     <Router>
       <div>
         <Routes>
           <Route path="/" element={<Navbar />}>
-
-            <Route path="/">
-              <Route path="/aboutme" element={<AboutMe />} />
-              <Route path="/" element={<AboutMe />} />
-            </Route>
+     
+            <Route path="/" element={<AboutMe />} />
 
             <Route
-              path="/contact"
+              path="contact"
               element={<Contact />}
             />
             <Route
-              path="/resume"
+              path="resume"
               element={<Resume />}
             />
             <Route
-              path="/portfolio"
+              path="portfolio"
               element={<Portfolio />}
             />
 
-            <Route
+            {/* <Route
               path="/"
               element={<Footer />}
-            />
+            /> */}
 
           </Route>
         </Routes>

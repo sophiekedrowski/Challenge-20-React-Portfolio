@@ -21,11 +21,24 @@ code {
   text-transform: uppercase;
 }
 
-.buttons{
+/* .my-button{
   background: #fff;
   color: rgb(3, 2, 2);
   border: 2px solid rgb(252, 245, 251);
   border-radius: 3px;
   padding: 5px 10px;
   text-transform: uppercase;
+} */
+
+.Card_Img {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.Card {
+  width: 100%;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
 }

@@ -39,7 +39,7 @@ function Contact() {
   return (
     <section className='flex justify-content-center'>
       <h1 className='padding 10px' data-testid="h1tag">Contact me</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
+      <form action="https://getform.io/f/453fda5e-a346-49ab-92c1-46ccee019df2" method="POST" id="contact-form" onSubmit={handleSubmit}>
         <div className='flex-row justify-content-center, padding 10px'>
           <label htmlFor="name">Name:</label>
           <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
